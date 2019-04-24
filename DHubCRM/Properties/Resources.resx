@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="3426c95e-93d2-4aa7-b301-0c9b7cef9523" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\3426c95e-93d2-4aa7-b301-0c9b7cef9523.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navicon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\navicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icondownarrowchevron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\icondownarrowchevron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9f835b71-812e-45fb-b98e-21f109f84e8b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\9f835b71-812e-45fb-b98e-21f109f84e8b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="white-down-arrow-png-2-300x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\white-down-arrow-png-2-300x300.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9f835b71-812e-45fb-b98e-21f109f84e8b3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\9f835b71-812e-45fb-b98e-21f109f84e8b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3c25af53-b2b4-4e04-89c2-94c9a9e477b5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\3c25af53-b2b4-4e04-89c2-94c9a9e477b5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="04f70de7-3ff5-4caf-9710-9b13ac320480" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\04f70de7-3ff5-4caf-9710-9b13ac320480.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dc4ab285-1a3b-45b8-a2d3-9452d60d1440" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\dc4ab285-1a3b-45b8-a2d3-9452d60d1440.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dc41c199-afe8-4655-99cf-b4fa74dabde9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\dc41c199-afe8-4655-99cf-b4fa74dabde9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grey-down-arrow-icon-png-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\grey-down-arrow-icon-png-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_Icon_White.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Calendar_Icon_White.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f089e33d-2bdf-48d7-8053-2d48f281a66b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\f089e33d-2bdf-48d7-8053-2d48f281a66b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="threelines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\threelines.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status-mail-attachment-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Status-mail-attachment-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="x-close-icon-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\x-close-icon-white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dfba49ab-f054-4030-9522-85f0e36c6682" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\dfba49ab-f054-4030-9522-85f0e36c6682.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="88-882904_mermaiden-crystal-dress-up-game-white-x-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\88-882904_mermaiden-crystal-dress-up-game-white-x-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="588a64eed06f6719692a2d12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\588a64eed06f6719692a2d12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9f835b71-812e-45fb-b98e-21f109f84e8b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\9f835b71-812e-45fb-b98e-21f109f84e8b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3c25af53-b2b4-4e04-89c2-94c9a9e477b51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\3c25af53-b2b4-4e04-89c2-94c9a9e477b5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5b51bcb32e9dd81b10d00a3a_white-email-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\5b51bcb32e9dd81b10d00a3a_white-email-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5c40b35d42d68e15747f09fa_mail2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\5c40b35d42d68e15747f09fa_mail2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_down_arrow_link_big-ID-bf7f593a-3226-441e-e437-4b692c316c2b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\banner_down_arrow_link_big-ID-bf7f593a-3226-441e-e437-4b692c316c2b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d9597e3e-2dec-4f3c-a8e8-ae2f91c6affa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\d9597e3e-2dec-4f3c-a8e8-ae2f91c6affa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\navicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_downarrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\icon_downarrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fae19725-c765-4a96-b04a-3bf41749d259" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\fae19725-c765-4a96-b04a-3bf41749d259.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3426c95e-93d2-4aa7-b301-0c9b7cef95231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\3426c95e-93d2-4aa7-b301-0c9b7cef9523.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icondownarrowchevron1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\icondownarrowchevron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f089e33d-2bdf-48d7-8053-2d48f281a66b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f089e33d-2bdf-48d7-8053-2d48f281a66b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c65ef334-b5ac-4430-be5d-f5ba2c91a733" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\c65ef334-b5ac-4430-be5d-f5ba2c91a733.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Material_icons-01-12-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Material_icons-01-12-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-desktop-wallpaper-computer-icons-email-white-icon-5b4804abb4daf3.4105242615314464437408" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\kisspng-desktop-wallpaper-computer-icons-email-white-icon-5b4804abb4daf3.4105242615314464437408.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="57b93425-6ff7-417e-961f-32864bb53a97" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\57b93425-6ff7-417e-961f-32864bb53a97.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20b89de1-72ca-40cf-8b64-4fea15714ff9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\20b89de1-72ca-40cf-8b64-4fea15714ff9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9f835b71-812e-45fb-b98e-21f109f84e8b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\9f835b71-812e-45fb-b98e-21f109f84e8b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar-sign-white-icon-vector-15479135" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\calendar-sign-white-icon-vector-15479135.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banner_down_arrow_link_big-ID-bf7f593a-3226-441e-e437-4b692c316c2b (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\banner_down_arrow_link_big-ID-bf7f593a-3226-441e-e437-4b692c316c2b (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chapter4 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\chapter4 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="House" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\House.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

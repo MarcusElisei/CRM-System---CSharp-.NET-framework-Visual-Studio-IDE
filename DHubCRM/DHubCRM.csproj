@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{25DCC316-2429-45FB-9949-1D8886549484}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DHubCRM</RootNamespace>
+    <AssemblyName>DHubCRM</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>C:\Users\sucil\Desktop\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.13.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Accounting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Accounting.Designer.cs">
+      <DependentUpon>Accounting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dbConn\customerDbConn.cs" />
+    <Compile Include="dbConn\dbConn.cs" />
+    <Compile Include="Forms\CRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CRM.Designer.cs">
+      <DependentUpon>CRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Alert.Designer.cs">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Bottom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Bottom.Designer.cs">
+      <DependentUpon>Bottom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Ticket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Ticket.Designer.cs">
+      <DependentUpon>Ticket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Profit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Profit.Designer.cs">
+      <DependentUpon>Profit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Top.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Top.Designer.cs">
+      <DependentUpon>Top.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Accounting.resx">
+      <DependentUpon>Accounting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Alert.resx">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Bottom.resx">
+      <DependentUpon>Bottom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CRM.resx">
+      <DependentUpon>CRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Ticket.resx">
+      <DependentUpon>Ticket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Profit.resx">
+      <DependentUpon>Profit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Top.resx">
+      <DependentUpon>Top.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\3c25af53-b2b4-4e04-89c2-94c9a9e477b5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\9f835b71-812e-45fb-b98e-21f109f84e8b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\588a64eed06f6719692a2d12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\navicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\banner_down_arrow_link_big-ID-bf7f593a-3226-441e-e437-4b692c316c2b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\icondownarrowchevron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\88-882904_mermaiden-crystal-dress-up-game-white-x-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\x-close-icon-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Material_icons-01-12-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\grey-down-arrow-icon-png-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\threelines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\20b89de1-72ca-40cf-8b64-4fea15714ff9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\3426c95e-93d2-4aa7-b301-0c9b7cef9523.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\57b93425-6ff7-417e-961f-32864bb53a97.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\fae19725-c765-4a96-b04a-3bf41749d259.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\dc41c199-afe8-4655-99cf-b4fa74dabde9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\dfba49ab-f054-4030-9522-85f0e36c6682.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\c65ef334-b5ac-4430-be5d-f5ba2c91a733.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\f089e33d-2bdf-48d7-8053-2d48f281a66b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\d9597e3e-2dec-4f3c-a8e8-ae2f91c6affa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\dc4ab285-1a3b-45b8-a2d3-9452d60d1440.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\04f70de7-3ff5-4caf-9710-9b13ac320480.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\white-down-arrow-png-2-300x300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\banner_down_arrow_link_big-ID-bf7f593a-3226-441e-e437-4b692c316c2b %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\icon_downarrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f089e33d-2bdf-48d7-8053-2d48f281a66b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\chapter4 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\calendar-sign-white-icon-vector-15479135.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Calendar_Icon_White.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\kisspng-desktop-wallpaper-computer-icons-email-white-icon-5b4804abb4daf3.4105242615314464437408.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\5c40b35d42d68e15747f09fa_mail2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\5b51bcb32e9dd81b10d00a3a_white-email-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Status-mail-attachment-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\House.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
